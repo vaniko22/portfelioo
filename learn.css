@@ -1,0 +1,309 @@
+body{
+    background-color: #37364B;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E8E7FC;
+    margin-left: 1500px;
+    margin-top:  -70px;
+    font-size: 20px;
+  }
+  
+  #navbar li {
+    float: left;
+    
+  }
+  
+  #navbar a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  #form {
+    background-color: #E8E7FC;
+    padding: 5px;
+    width: 1895px;
+    height: 60px;
+    margin-top: -15px;
+    margin-left: -10px;
+    position: fixed;
+    z-index: 999;
+  }
+  
+  #Home{
+    color: #37364B;
+  }
+  
+  #me {
+    margin-left: 700px;
+    font-family: sans-serif;
+  }
+  
+  
+  #welcome-section {
+    width: 0px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  #welcome-section h1{
+    max-width: 500px;
+    margin-left: 150px;
+    margin-top: 150px;
+    padding: 0px;
+    color: white;
+    font-size: 35px;
+  }
+  
+  #welcome-section p{
+    width: 1000px;
+    margin-left: 150px;
+    padding: 0px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  #image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 500px;
+    margin-top: -300px;
+  }
+  
+  #name {
+    font-size: 25px;
+    color: white;
+    margin-left: 550px;
+  }
+  
+  #fb{
+    width: 50px;
+    height: 49px;
+    border-radius: 50%;
+    margin-left: 540px;
+  }
+  
+  #insta{
+    width: 47px;
+    height: 47px;
+    margin-left: 15px;
+  }
+  
+  #gitHub{
+    width: 53px;
+    height: 53px;
+    margin-left: 15px;
+    margin-top: -200px;
+  }
+  
+  #skills{
+    width: 1903px;
+    height: 400px;
+    background-color: #2E2D3D;
+    margin-left: -8px;
+    margin-top: 100px;
+  }
+  
+  .skills{
+    text-align: center;
+    padding: 40px;
+    font-size: 36px;
+    color: white;
+  }
+  
+  .java{
+    margin-left: 300px;
+  }
+  
+  #java{
+    width: 100px;
+  }
+  
+  .java-txt{
+    margin-left: 25px;
+    color: white;
+    font-size: 23px;
+    margin-top: -2px;
+  }
+  
+  .js{
+    margin-left: 600px;
+    margin-top: -117px;
+  }
+  
+  #js{
+    width: 70px;
+    border-radius: 15%;
+  }
+  
+  .js-txt{
+    margin-left: -15px;
+    color: white;
+    font-size: 23px;
+    margin-top: -2px;
+  }
+  
+  .python{
+    margin-left: 900px;
+    margin-top: -117px;
+  }
+  
+  #python{
+    width: 70px;
+    border-radius: 15%;
+  }
+  
+  .python-txt{
+    margin-left: 3px;
+    color: white;
+    font-size: 23px;
+    margin-top: -2px;
+  }
+  
+  .html{
+    margin-left: 1200px;
+    margin-top: -117px;
+  }
+  
+  #html{
+    width: 70px;
+    border-radius: 15%;
+  }
+  
+  .html-txt{
+    margin-left: 10px;
+    color: white;
+    font-size: 23px;
+    margin-top: -2px;
+  }
+  
+  .css{
+    margin-left: 1500px;
+    margin-top: -117px;
+  }
+  
+  #css{
+    width: 70px;
+    border-radius: 15%;
+  }
+  
+  .css-txt{
+    margin-left: 10px;
+    color: white;
+    font-size: 23px;
+    margin-top: -2px;
+  }
+  
+  #projects{
+    width: 1903px;
+    height: 500px;
+    margin-left: -8px;
+  }
+  
+  #projects h1{
+    margin-left: 400px;
+    color: white;
+    font-size: 35px;
+  }
+  
+  #projects-page{
+    margin-left: 700px;
+  }
+  
+  .projects-page{
+    color: white;
+    font-size: 25px;
+  }
+  
+  .projects-page-txt{
+    color: white;
+    margin-top: -13px;
+  }
+  
+  #projects-page-img{
+    width: 250px;
+    margin-left: 500px;
+    margin-top: -250px;
+  }
+  
+  #contact-section{
+    width: 1903px;
+    height: 500px;
+    background-color: #2E2D3D;
+    margin-left: -8px;
+    margin-top: 120px;
+  }
+  
+  #contact-section h1{  
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    padding: 40px;
+  }
+  
+  input[type=text], select {
+    width: 30%;
+    padding: 9px 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #37364B;
+  }
+  
+  input[type=email], select{
+    width: 30%;
+    padding: 8px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #37364B;
+  }
+  
+  #message{
+    overflow: hidden;
+    width: 30%;
+    height: 100px;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 698px;
+    background-color: #37364B;
+    font-size: 20px;
+  }
+  
+  #name{
+    margin-left: 700px;
+    font-size: 20px;
+  }
+  
+  #email{
+    margin-left: 700px;
+    font-size: 20px;
+  }
+  
+  #send{
+    margin-left: 700px;
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    color: #855B2F;
+    background-color: #37364B; 
+    border-radius: 4px;
+    border: 2px solid #855B2F;
+  }
+  
+  #send:hover {
+    color: white;
+    background-color: #855B2F;
+  }
